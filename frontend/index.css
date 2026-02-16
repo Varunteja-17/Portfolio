@@ -1,8 +1,8 @@
 :root {
-  --bg-dark: #0B1220;
-  --glass: rgba(255, 255, 255, 0.05);
-  --glass-border: rgba(255, 255, 255, 0.12);
-  --primary: #3B82F6;
+  --bg-dark: #121212; 
+  --glass: rgba(255, 255, 255, 0.04);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --primary: #225ab4;
   --accent: #22D3EE;
   --text: #F8FAFC;
   --muted: #94A3B8;
@@ -46,7 +46,7 @@ body {
   width: 100%;
   top: 0;
   backdrop-filter: blur(18px);
-  background: rgba(11, 18, 32, 0.8);
+  background: rgba(18, 18, 18, 0.85);
   border-bottom: 1px solid var(--glass-border);
   z-index: 1000;
 }
